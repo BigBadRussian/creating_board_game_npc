@@ -1,3 +1,4 @@
+import os
 import random
 import ast
 import file_operations
@@ -32,6 +33,8 @@ def randomize_npc():
 
 
 def main():
+    if not os.path.isdir("NPC_Cards"):
+        os.mkdir("NPC_Cards")
     for i in range(10):
         i = i + 1
         context = {
