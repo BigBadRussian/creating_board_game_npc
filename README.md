@@ -28,6 +28,6 @@ pip3 install -r requirements.txt
 ```
 5. Запустите скрипт
 ```bash
-script_1.py
+python3 script_1.py
 ```
 6. Проверьте папку NPC_Cards. В этой папке должны появиться 10 новых карточек NPC.
